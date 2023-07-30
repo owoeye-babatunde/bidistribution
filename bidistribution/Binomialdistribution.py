@@ -1,8 +1,6 @@
 import math
 import matplotlib.pyplot as plt
 from .Generaldistribution import Distribution
-from keyring import get_keyring
-get_keyring()
 
 class Binomial(Distribution):
     """ Binomial distribution class for calculating and 
